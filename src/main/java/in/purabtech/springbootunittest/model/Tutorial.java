@@ -29,6 +29,13 @@ public class Tutorial {
         this.description = description;
         this.published = published;
     }
+
+    public Tutorial(long id, String title, String description, boolean published) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+        this.published = published;
+    }
     @Override
     public String toString() {
         return "Tutorial [id=" + id + ", title=" + title + ", desc=" + description + ", published=" + published + "]";
